@@ -505,52 +505,374 @@ li {
   margin-right: 0 !important;
 }
 
-@media only screen and (max-width: 1024px) {
-  body {
-    font-size: 16px;
+@media screen and (max-width: 500px) {
+  .left_part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-
-  .container {
-    width: 90%;
+  .middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-
-  .food_category .card {
-    width: 45%;
+  .right_part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
-
-@media only screen and (max-width: 768px) {
-  body {
-    font-size: 14px;
-  }
-
-  .container {
-    width: 95%;
-  }
-
+/* @media (max-width: 767px) {
   .navbar {
     padding: 10px;
   }
 
-  .food_category .card {
+  .left_part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 24px;
+  }
+
+  .brand {
+    font-size: 14px;
+  }
+
+  .middle {
+    display: none;
+  }
+
+  .right_part {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Search {
     width: 100%;
+    margin: 10px 0;
+  }
+
+  .search_text {
+    display: none;
+  }
+
+  .shop svg {
+    width: 16px;
+    height: 18px;
+  }
+
+  .signin {
+    margin-top: 10px;
+  }
+
+  #specs {
+    padding: 20px;
+  }
+
+  .text_content {
+    text-align: center;
+  }
+
+  #faster_div img {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+  }
+
+  .get_your {
+    font-size: 18px;
+  }
+
+  .food_that_is {
+    font-size: 14px;
+    width: auto;
+  }
+
+  #explore_food {
+    font-size: 14px;
+  }
+
+  .delivery_agent img {
+    width: 100%;
+    height: auto;
+  }
+
+  .About-Us {
+    padding: 20px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  #why_best {
+    font-size: 20px;
+  }
+
+  .img-top img {
+    width: 100%;
+    height: auto;
+  }
+
+  .info {
+    font-size: 16px;
+  }
+
+  .deco .info {
+    font-size: 16px;
+  }
+
+  .special-recipe {
+    padding: 20px;
+  }
+
+  #special_recipe_head {
+    font-size: 24px;
+  }
+
+  .lists {
+    justify-content: center;
+  }
+
+  .food_category .card {
+    margin-bottom: 20px;
+  }
+
+  .testimonials {
+    padding: 20px;
+  }
+
+  .customer_photo img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .customer {
+    font-size: 18px;
+  }
+
+  .name,
+  .designation {
+    font-size: 14px;
+  }
+
+  hr {
+    margin: 20px 0;
+  }
+
+  .cardo {
+    padding: 20px;
+  }
+
+  .mobi_head {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .ordering {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .appstore,
+  .playstore {
+    width: 150px;
+    height: auto;
+  }
+
+  .footer_section {
+    padding: 20px;
+  }
+
+  .foot_head {
+    font-size: 18px;
+  }
+
+  .footer_section span,
+  .footer_section p {
+    font-size: 14px;
   }
 }
 
-@media only screen and (max-width: 480px) {
-  body {
-    font-size: 12px;
-  }
-
-  .container {
-    width: 100%;
-  }
-
+@media (min-width: 768px) and (max-width: 991px) {
   .navbar {
-    padding: 8px;
+    padding: 20px;
+  }
+
+  .left_part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 30px;
+  }
+
+  .brand {
+    font-size: 18px;
+  }
+
+  .middle {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .right_part {
+    display: flex;
+    align-items: center;
+  }
+
+  .Search {
+    width: 200px;
+    margin: 0;
+  }
+
+  .search_text {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  .shop svg {
+    width: 18px;
+    height: 20px;
+  }
+
+  .signin {
+    margin-top: 0;
+    margin-left: 10px;
+  }
+
+  #specs {
+    padding: 40px;
+  }
+
+  .text_content {
+    text-align: center;
+  }
+
+  #faster_div img {
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+  }
+
+  .get_your {
+    font-size: 20px;
+  }
+
+  .food_that_is {
+    font-size: 16px;
+    width: 524px;
+  }
+
+  #explore_food {
+    font-size: 18px;
+  }
+
+  .delivery_agent img {
+    width: 100%;
+    height: auto;
+  }
+
+  .About-Us {
+    padding: 40px;
+  }
+
+  .card {
+    margin-bottom: 40px;
+  }
+
+  #why_best {
+    font-size: 24px;
+  }
+
+  .img-top img {
+    width: 100%;
+    height: auto;
+  }
+
+  .info {
+    font-size: 18px;
+  }
+
+  .deco .info {
+    font-size: 18px;
+  }
+
+  .special-recipe {
+    padding: 40px;
+  }
+
+  #special_recipe_head {
+    font-size: 30px;
+  }
+
+  .lists {
+    justify-content: center;
   }
 
   .food_category .card {
-    width: 100%;
+    margin-bottom: 40px;
   }
-}
+
+  .testimonials {
+    padding: 40px;
+  }
+
+  .customer_photo img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .customer {
+    font-size: 24px;
+  }
+
+  .name,
+  .designation {
+    font-size: 18px;
+  }
+
+  hr {
+    margin: 30px 0;
+  }
+
+  .cardo {
+    padding: 40px;
+  }
+
+  .mobi_head {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  .ordering {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .appstore,
+  .playstore {
+    width: 200px;
+    height: auto;
+  }
+
+  .footer_section {
+    padding: 40px;
+  }
+
+  .foot_head {
+    font-size: 18px;
+  }
+
+  .footer_section span,
+  .footer_section p {
+    font-size: 18px;
+  }
+} */
