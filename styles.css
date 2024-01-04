@@ -140,7 +140,7 @@ li {
   width: 300px !important;
   text-align: center;
 }
-.our_speciality {
+.About-Us {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
@@ -153,7 +153,7 @@ li {
 
   box-shadow: 20px 40px 90px -5px rgba(133, 15, 15, 0.08);
 }
-#info {
+.info {
   color: #212244;
 
   font-family: Poppins;
@@ -189,7 +189,7 @@ li {
   font-weight: 500;
   line-height: normal;
 }
-#heading {
+.heading {
   color: var(--Food-Delivery-PG, #212244);
   text-align: center;
   font-family: Poppins;
@@ -270,7 +270,7 @@ li {
   margin-top: 0px;
   display: inline-block;
 }
-#rating {
+.rating4 {
   display: inline-block;
   margin-left: 250px;
 }
@@ -287,6 +287,7 @@ li {
   margin-top: 8px;
 }
 .cardo {
+  display: flex;
   width: 1120px;
   height: 550px;
   flex-shrink: 0;
@@ -294,17 +295,151 @@ li {
   background: var(--Food-Delivery-Orange-Color, #f94a3d);
 }
 .mobi {
+  width: 312px;
+  height: 625px;
   margin-left: 120px;
   display: inline-block;
+  position: relative;
 }
-.head_mobi {
+.test {
+  position: absolute;
+  left: 270px;
+  top: 50px;
 }
+.menu {
+  position: absolute;
+  right: 190px;
+  top: 70px;
+}
+.menu2 {
+  position: absolute;
+  top: 0px;
+  left: 70px;
+}
+.taste {
+  color: var(--Food-Text-Color-1, #2e2e46);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.recipe_head {
+  position: absolute;
+  top: 120px;
+  left: 90px;
+}
+.thali {
+  position: absolute;
+  top: 150px;
+  left: 50px;
+}
+.thali2 {
+  position: absolute;
+  top: 150px;
+  left: 200px;
+}
+.foodd {
+  color: var(--Food-Text-Color-1, #2e2e46);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.food_cat {
+  position: absolute;
+  top: 280px;
+  left: 100px;
+}
+.food_cat2 {
+  position: absolute;
+  top: 280px;
+  left: 230px;
+}
+.food_cat3 {
+  position: absolute;
+  top: 400px;
+  left: 130px;
+}
+.rating {
+  position: absolute;
+  top: 300px;
+  left: 230px;
+}
+.rating2 {
+  position: absolute;
+  top: 300px;
+  left: 110px;
+}
+.price1 {
+  position: absolute;
+  top: 350px;
+  left: 110px;
+}
+.price2 {
+  position: absolute;
+  top: 350px;
+  left: 250px;
+}
+.love {
+  position: absolute;
+  top: 345px;
+  left: 320px;
+}
+.love2 {
+  position: absolute;
+  top: 345px;
+  left: 180px;
+}
+.mobile_navigation {
+  position: relative;
+  top: 100px;
+  right: 55px;
+  width: 280px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  opacity: 0.1;
+  background: linear-gradient(
+    102deg,
+    rgba(255, 83, 49, 0.75) 41.25%,
+    rgba(227, 83, 54, 0.75) 98.64%
+  );
+}
+.home {
+  position: absolute;
+  top: 205px;
+  left: -25px;
+}
+.Notification {
+  position: absolute;
+  top: 205px;
+  left: 20px;
+}
+.heart {
+  position: absolute;
+  top: 205px;
+  left: 130px;
+}
+.profile {
+  position: absolute;
+  top: 205px;
+  left: 180px;
+}
+.middle_ele {
+  position: absolute;
+  top: 180px;
+  left: 70px;
+}
+
 .details {
   display: inline-block;
+  margin-left: 200px;
 }
 .mobi_head {
   color: #fff;
-
+  margin-top: 90px;
   font-family: Poppins;
   font-size: 38px;
   font-style: normal;
@@ -346,4 +481,20 @@ li {
 }
 .card {
   border: none !important;
+}
+.ordering {
+  color: #fff;
+
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+}
+.appstore {
+  display: inline-block;
+}
+.playstore {
+  display: inline-block;
+  margin-left: 30px;
 }
